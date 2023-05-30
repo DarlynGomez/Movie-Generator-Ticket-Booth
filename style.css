@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #bf828d;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+} 
+
+@font-face{
+  font-family: cherryCream;
+  src: url("cherry_cream_soda.zip");
+}
+#img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+}
+
+.parentImg{
+  position: relative;
+}
+
+.playButton{
+  width: 225px;
+  height: 125px;
+  background-color: rgb(0, 0, 0, 0);
+}
+
+.playButton:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.btn{
+  background-color: rgb(0, 0, 0, 0);
+  border:none;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.titlepage{
+  font-size: 40px;
+  border:none;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+  position:absolute;
+  left:34%;
+  top:6%;
+  border-radius: 20px;
+  padding:10px;
+  border: 10px solid #e18998;
+  background-color: #f9f5f6;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.childImg{
+  position:absolute;
+  left:42%;
+  top:71%;
+}
+
+.testing{
+  width:160px;
+  height:90px;
+
+
+.backgroundBox{
+  position: relative;
+}
+  
+.img2{
+  position:absolute;
+}
+
+#ringBell{
+  color: red;
+}
+
+.bell{
+  position:relative;
+  width:10px;
+  height: 300px;
+}
+
+#leftRing{
+  position:absolute;
+  top:20%;
+  left:32%;
+  display:none;
+}
+
+#rightRing{
+  position:absolute;
+  top:20%;
+  left:32%;
+  display:none;
+}
+
+.ringBellBtn:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#buttonTest{
+  color: blue;
+}
